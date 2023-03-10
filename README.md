@@ -6,7 +6,8 @@ Purpose: This README will describe the practical steps of how to host and format
 * [What is GitHub?](#what-is-github)
 * [GitHub Pages](#github-pages)
 * [What is Jekyll](#what-is-jekyll)
-* [Hosting Your Resume on GitHub Pages](#hosting-your-resume-on-github-pages)
+* [Prerequisites](#prerequisites)
+* [Instructions](#instructions)
     1. [Finding a template for your resume from Jekyll](#finding-a-template-for-your-resume-from-jekyll)
     2. [Forking the repository](#forking-the-repository)
     3. [Hosting your site on GitHub Pages](#hosting-your-resume-on-github-pages)
@@ -34,12 +35,15 @@ GitHub is a software and cloud-based service that gives users the ability to sto
 *GitHub Pages* has the added benefit of not requiring knowledge of databases, servers or, at times, knowledge of HTML. This is accomplished with the aid of static site generators like *Jekyll*
 
 ### <ins> What is Jekyll? </ins>
-Jekyll is a *static site generator* that transforms your plain text file into static websites that can be editted and viewed. It allows you to change *lightweight markup languages* into elegant webpages with the help of layouts. 
+Jekyll is a *static site generator* that transforms your plain text file into static websites that can be editted and viewed. It allows you to change *lightweight markup languages* into elegant webpages with the help of layouts. *Lightweight markup languages have the added benefit of being easy to use and understand as well being capable of implementing Version Control Software*
 
- # <h4 align = "center"> <ins> Hosting Your Resume on GitHub Pages With the Help of Jekyll</ins> </h4>
+### <ins> Prerequisites </ins>
+This should include a resume formatted in Markdown
+
+ # <h4 align = "center"> <ins> Instructions</ins> </h4>
 
 1. ##### Finding a template for your resume from Jekyll
-    - First, let's pick a resume template from Jekyll. Templates and themes are available from [here](https://jekyll-themes.com). You can narrow your selecting *Resumes* from the categories option on the left panel. ![](https://github.com/Flexyduck/flexyduck.github.io/blob/main/Gifs/categories.png)![](https://github.com/Flexyduck/flexyduck.github.io/blob/main/Gifs/Resumes.png) 
+    - Jekyll, being a static site generator needs two things to work. *A file written in a lightup markup language (your resume) and a theme (written in HTML or CSS)* So first, we will pick a resume theme from Jekyll. Templates and themes are available from [here](https://jekyll-themes.com). You can narrow your selecting *Resumes* from the categories option on the left panel. ![](https://github.com/Flexyduck/flexyduck.github.io/blob/main/Gifs/categories.png)![](https://github.com/Flexyduck/flexyduck.github.io/blob/main/Gifs/Resumes.png) 
     <br>We selected [Online Cv](https://jekyll-themes.com/online-cv/) by Sharu725 then select **Repository** from the options ![](https://github.com/Flexyduck/flexyduck.github.io/blob/main/Gifs/repository.gif). 
     <br> This will take you to the GitHub repository for that template.
 
@@ -57,7 +61,7 @@ Jekyll is a *static site generator* that transforms your plain text file into st
         2. A version control software 
 
 5.  ##### Using a Text Editor and Version Control Software
-    Fire up your favourite text editor. I personally prefer just using [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/). A version control software would also be needed to sync your changes locally to your online repository. GitHub has its own version control software called [GitHub Desktop](https://desktop.github.com). You can use GitHub Desktop and your preferred text editor to format your .yml file to match your resume. To use GitHub Desktop, you will need to clone your repository.
+    Fire up your favourite text editor. I personally prefer just using [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/). A version control software would also be needed to sync your changes locally to your online repository. *Andrew Etter stated the benfits of Version Control Software, especially Distributed Version Control software is widely like allowing for offline work, having better performance and being superior for concurrent work on the same software*. GitHub has its own version control software called [GitHub Desktop](https://desktop.github.com). You can use GitHub Desktop and your preferred text editor to format your .yml file to match your resume. To use GitHub Desktop, you will need to clone your repository.
  
  6. ##### Cloning your repository
     - A **Set up in Desktop** option should be on the repository homepage on GitHub.
@@ -66,7 +70,7 @@ Jekyll is a *static site generator* that transforms your plain text file into st
     - These can also be done in terminal or Command Prompt; you can clone our repository by entering <br>`git clone https://github.com/username/username.github.io` <br> into your terminal
     
 7. ##### Formatting your Resume
-    Your resume would need to formatted in markdown before proceeding. Markdown is a lightweight markup language that helps display your resume on web pages. A link for tutorials on formatting documents in markdown is available in the [More Resources](#more-resources) part of the document. You can edit all the template information (changing "Alan Doe" to your name etc.) and when you're done, you can upload an image of yourself as well to the /assets/images directory and change the template field *avatar* to the name of your new image file. You can also edit the color of this particular template by changing *theme-skin* option from the __config.yml file. From your Version control software, commit these changes, label this commit (for example, "Changes made to data.yml") and push them to your repository. 
+    Your resume would need to formatted in markdown before proceeding. Markdown is a lightweight markup language that helps display your resume on web pages. The need for using Markdown as opposed to a more complex .xml is because *Markdown is clean, cheap and easy to understand*. A link for tutorials on formatting documents in markdown is available in the [More Resources](#more-resources) part of the document. You can edit all the template information (changing "Alan Doe" to your name etc.) and when you're done, you can upload an image of yourself as well to the /assets/images directory and change the template field *avatar* to the name of your new image file. You can also edit the color of this particular template by changing *theme-skin* option from the __config.yml file. From your Version control software, commit these changes, label this commit (for example, "Changes made to data.yml") and push them to your repository. 
 
  At this point, your resume should look like: ![](https://github.com/Flexyduck/flexyduck.github.io/blob/main/Gifs/resume.gif)
 
