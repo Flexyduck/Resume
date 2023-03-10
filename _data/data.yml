@@ -57,10 +57,6 @@ experiences:
             - Handled large volumes of data on a weekly basis with reports that needed to be accurately filed and ordered
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: Multiple-choice Examination Program 
         tagline: "A program where a user can upload a multiple-choice question bank and the program randomly assigns questions to a choice tag every time the program is 
